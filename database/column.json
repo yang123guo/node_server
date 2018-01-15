@@ -1,0 +1,151 @@
+{
+	"data" : {
+	 "head": {
+	  "rows": 
+	   [
+		{
+			"rowId" : 0,
+			"status" : 0,
+			"values" : {
+				"id" : {
+					"display" : null,
+					"scale" : -1,
+					"value" : "1001K71000000000014U"
+				}, 
+				"code" : {
+					"display" : "0004",
+					"scale" : -1,
+					"value" : "0001"
+				},
+				"repayment" : {
+					"display" : "结算方式1",
+					"scale" : -1,
+					"value" : "结算方式1"
+				},
+				"debtment" : {
+				  "display" : "属性1",
+				  "scale" : -1,
+				  "value" : "0"
+			  }
+			  ,
+			  "interment" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  
+			  "paybackperiod" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  
+			  "interestperiod" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  
+			  "interestday" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "debtdate" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "interdate" : {
+				  "display" : "2017/12/11",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "creator" : {
+				  "display" : "2017/12/11",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "creationtime" : {
+				  "display" : "2017/12/11",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  }
+			}
+		},  {
+			"rowId" : 1,
+			"status" : 2,
+			"values" : {
+				"id" : {
+					"display" : null,
+					"scale" : -1,
+					"value" : "1001K71000000000014U"
+				}, 
+				"code" : {
+					"display" : "0005666",
+					"scale" : -1,
+					"value" : "0001"
+				},
+				"repayment" : {
+					"display" : "结算方式1",
+					"scale" : -1,
+					"value" : "结算方式1"
+				},
+				"debtment" : {
+				  "display" : "属性1",
+				  "scale" : -1,
+				  "value" : "0"
+			  }
+			  ,
+			  "interment" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  
+			  "paybackperiod" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  
+			  "interestperiod" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  
+			  "interestday" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "debtdate" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "interdate" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "creator" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  },
+			  "creationtime" : {
+				  "display" : "结算方式1",
+				  "scale" : -1,
+				  "value" : "结算方式1"
+			  }
+			}
+		}
+	  ]
+	}
+  },
+  "message":null,
+  "success": true
+}
+  

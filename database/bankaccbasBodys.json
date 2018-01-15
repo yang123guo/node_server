@@ -1,0 +1,117 @@
+{
+    "data": {
+        "head":{
+           "rows":{
+                "rowId":1
+           }
+        },
+        "bodys": {
+            "body1": {
+                "rows": [
+                    {
+                        "rowId": "0",
+                        "values": {
+                            "id": {
+                                "display": "1",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accountid": {
+                                "display": "8765-4321-9876-0000",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accountidname": {
+                                "display": "用友科技有限公司",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "currency": {
+                                "display": "￥人民币",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accounttype": {
+                                "display": "活期",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "status": {
+                                "display": "正常",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "sellerinstructions": {
+                                "display": "一二三四五六七八九十一二三四五六七八九十",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "balance": {
+                                "display": "￥123.0",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accountpid": {
+                                "display": "test",
+                                "scale": -1,
+                                "value": null
+                            }
+                        }
+                    },
+                    {
+                        "rowId": "1",
+                        "values": {
+                            "id": {
+                                "display": "2",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accountid": {
+                                "display": "8765-4321-9876-0000",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accountidname": {
+                                "display": "用友科技有限公司",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "currency": {
+                                "display": "￥人民币",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accounttype": {
+                                "display": "活期",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "status": {
+                                "display": "正常",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "sellerinstructions": {
+                                "display": "一二三四五六七八九十一二三四五六七八九十",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "balance": {
+                                "display": "￥123.0",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accountpid": {
+                                "display": "test",
+                                "scale": -1,
+                                "value": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "message": null,
+    "success": true
+}

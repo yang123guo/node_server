@@ -1,0 +1,329 @@
+{
+	"data": {
+	  "head": {
+		"pageInfo": {
+		  "pageIndex": 1,
+		  "pageSize": 10,
+		  "total": 22
+		},
+		"rows": [
+		  {
+			"id": "10001",
+			"status": 1,
+			"values": {
+			  "code": {
+				"display": "8765-4321-9876-0000",
+				"scale": 2,
+				"value": "540.00"
+			  },
+			  "name": {
+				"display": "云测信息技术有限公司",
+				"scale": -1,
+				"value": "2017-07-26 14:06:58"
+			  },
+			  "banktype": {
+				"display": "商业银行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "bankid": {
+				"display": "建行-北京分行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "orgid": {
+				"display": "用友信息技术有限公司",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  },
+			  "opentime": {
+				"display": "2017-09-22",
+				"scale": -1,
+				"value": "2017-07-22 00:00:00"
+			  },
+			  "memo": {
+				"display": "备注内容不要超过五十个字符字数补丁",
+				"scale": -1,
+				"value": "1002Z0100000000001K1"
+			  },
+			  "net_enablestatus": {
+				"display": "是",
+				"scale": -1,
+				"value": true
+			  },
+			  "net_code": {
+				"display": "0001Z51000000000IF62",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "net_name": {
+				"display": "建行-北京分行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "net_area": {
+				"display": "山西",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  },
+			  "net_province": {
+				"display": "太原",
+				"scale": -1,
+				"value": "2017-07-22 00:00:00"
+			  },
+			  "net_city": {
+				"display": "迎泽区",
+				"scale": -1,
+				"value": "1002Z0100000000001K1"
+			  }
+			}
+		  },
+		  {
+			"id": "10002",
+			"status": 1,
+			"values": {
+			  "code": {
+				"display": "8765-4321-9876-1111",
+				"scale": 2,
+				"value": "540.00"
+			  },
+			  "name": {
+				"display": "云测信息技术有限公司",
+				"scale": -1,
+				"value": "2017-07-26 14:06:58"
+			  },
+			  "banktype": {
+				"display": "商业银行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "bankid": {
+				"display": "建行-北京分行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "orgid": {
+				"display": "用友信息技术有限公司",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  },
+			  "opentime": {
+				"display": "2017-09-22",
+				"scale": -1,
+				"value": "2017-07-22 00:00:00"
+			  },
+			  "memo": {
+				"display": "备注内容不要超过五十个字符字数补丁",
+				"scale": -1,
+				"value": "1002Z0100000000001K1"
+			  },
+			  "net_enablestatus": {
+				"display": "是",
+				"scale": -1,
+				"value": true
+			  },
+			  "net_code": {
+				"display": "0001Z51000000000IF62",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "net_name": {
+				"display": "工行-北京分行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "net_area": {
+				"display": "北京",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  },
+			  "net_province": {
+				"display": "北京",
+				"scale": -1,
+				"value": "2017-07-22 00:00:00"
+			  },
+			  "net_city": {
+				"display": "海淀区",
+				"scale": -1,
+				"value": "1002Z0100000000001K1"
+			  }
+			}
+		  },
+		  {
+			"id": "10003",
+			"status": 1,
+			"values": {
+			  "code": {
+				"display": "8765-4321-9876-0000",
+				"scale": 2,
+				"value": "540.00"
+			  },
+			  "name": {
+				"display": "云测信息技术有限公司",
+				"scale": -1,
+				"value": "2017-07-26 14:06:58"
+			  },
+			  "banktype": {
+				"display": "商业银行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "bankid": {
+				"display": "建行-北京分行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "orgid": {
+				"display": "用友信息技术有限公司",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  },
+			  "opentime": {
+				"display": "2017-09-22",
+				"scale": -1,
+				"value": "2017-07-22 00:00:00"
+			  },
+			  "memo": {
+				"display": "备注内容不要超过五十个字符字数补丁",
+				"scale": -1,
+				"value": "1002Z0100000000001K1"
+			  },
+			  "net_enablestatus": {
+				"display": "否",
+				"scale": -1,
+				"value": false
+			  },
+			  "net_code": {
+				"display": "0001Z51000000000IF62",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "net_name": {
+				"display": "建行-北京分行",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "net_area": {
+				"display": "北京",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  },
+			  "net_province": {
+				"display": "北京",
+				"scale": -1,
+				"value": "2017-07-22 00:00:00"
+			  },
+			  "net_city": {
+				"display": "朝阳区",
+				"scale": -1,
+				"value": "1002Z0100000000001K1"
+			  }
+			}
+		  }
+		]
+	  },
+	  "body1": {
+		"pageInfo": null,
+		"rows": [
+		  {
+			"id": "101",
+			"status": 1,
+			"values": {
+			  "code": {
+				"display": "8765-4321-9876-0000",
+				"scale": -1,
+				"value": null
+			  },
+			  "name": {
+				"display": "用友科技有限公司",
+				"scale": 2,
+				"value": "540.00"
+			  },
+			  "currtypeid": {
+				"display": "人民币",
+				"scale": -1,
+				"value": "2017-07-26 14:06:58"
+			  },
+			  "accounttype": {
+				"display": "活期",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "balance": {
+				"display": "123",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  }
+			}
+		  },
+		  {
+			"id": "102",
+			"status": 1,
+			"values": {
+			  "code": {
+				"display": "8765-4321-9876-111",
+				"scale": -1,
+				"value": null
+			  },
+			  "name": {
+				"display": "用友科技有限公司2",
+				"scale": 2,
+				"value": "540.00"
+			  },
+			  "currtypeid": {
+				"display": "美元",
+				"scale": -1,
+				"value": "2017-07-26 14:06:58"
+			  },
+			  "accounttype": {
+				"display": "定期",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "balance": {
+				"display": "1423",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  }
+			}
+		  },
+		  {
+			"id": "103",
+			"status": 1,
+			"values": {
+			  "code": {
+				"display": "8765-4321-9876-111",
+				"scale": -1,
+				"value": null
+			  },
+			  "name": {
+				"display": "用友科技有限公司2",
+				"scale": 2,
+				"value": "540.00"
+			  },
+			  "currtypeid": {
+				"display": "美元",
+				"scale": -1,
+				"value": "2017-07-26 14:06:58"
+			  },
+			  "accounttype": {
+				"display": "定期",
+				"scale": -1,
+				"value": "0001Z51000000000IF62"
+			  },
+			  "balance": {
+				"display": "143",
+				"scale": -1,
+				"value": "1001Z51000000000FRG3"
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"message": null,
+	"success": true
+  }
+  
+  
+  

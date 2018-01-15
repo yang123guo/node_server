@@ -1,0 +1,452 @@
+//为了适用于修改保存，每个row需要增加状态status(0 不变,1 修改,2 新增,3 删除)，
+//对于新增行，需要传递行中所有字段；
+//修改行传递修改的字段，其中主键必须；
+//删除行，只传递主键字段。
+
+//下面的格式为前后台传递的基本格式，所有单据尽量使用这种结构，有特殊需要，需要前后台再约定结构
+{
+	"data": {
+		"head": {
+			"pageInfo": null,
+			"rows": [
+				{
+					"rowId": "0",
+					"status": 1,
+					"values": {
+						"cemployeeid": {
+							"display": null,
+							"scale": -1,
+							"value": null
+						},
+						"noritotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "540.00"
+						},
+						"ts": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"pk_org_v": {
+							"display": "农仁街电子商务有限公司",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"ccustomerid": {
+							"display": "test",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"dmakedate": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"ccurrencyid": {
+							"display": null,
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"billmaker": {
+							"display": null,
+							"scale": -1,
+							"value": "1001K71000000000014U"
+						},
+						"vname": {
+							"display": null,
+							"scale": -1,
+							"value": "124124"
+						},
+						"ndealtotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "125.00"
+						},
+						"vbillcode": {
+							"display": null,
+							"scale": -1,
+							"value": "21414"
+						},
+						"cdeptvid": {
+							"display": "运营部",
+							"scale": -1,
+							"value": "0001Z51000000000IF7J"
+						},
+						"fstatusflag": {
+							"display": "自由态",
+							"scale": -1,
+							"value": "-1"
+						}
+					}
+				},
+				{
+					"rowId": "1",
+					"status": 1,
+					"values": {
+						"cemployeeid": {
+							"display": null,
+							"scale": -1,
+							"value": null
+						},
+						"noritotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "540.00"
+						},
+						"ts": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"pk_org_v": {
+							"display": "农仁街电子商务有限公司",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"ccustomerid": {
+							"display": "test",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"dmakedate": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"ccurrencyid": {
+							"display": null,
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"billmaker": {
+							"display": null,
+							"scale": -1,
+							"value": "1001K71000000000014U"
+						},
+						"vname": {
+							"display": null,
+							"scale": -1,
+							"value": "124124"
+						},
+						"ndealtotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "125.00"
+						},
+						"vbillcode": {
+							"display": null,
+							"scale": -1,
+							"value": "21414"
+						},
+						"cdeptvid": {
+							"display": "运营部",
+							"scale": -1,
+							"value": "0001Z51000000000IF7J"
+						},
+						"fstatusflag": {
+							"display": "自由态",
+							"scale": -1,
+							"value": "-1"
+						}
+					}
+				}
+			]
+		},
+		"body1": {
+			"pageInfo": null,
+			"rows": [
+				{
+					"rowId": "0",
+					"status": 1,
+					"values": {
+						"cemployeeid": {
+							"display": null,
+							"scale": -1,
+							"value": null
+						},
+						"noritotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "540.00"
+						},
+						"ts": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"pk_org_v": {
+							"display": "农仁街电子商务有限公司",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"ccustomerid": {
+							"display": "test",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"dmakedate": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"ccurrencyid": {
+							"display": null,
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"billmaker": {
+							"display": null,
+							"scale": -1,
+							"value": "1001K71000000000014U"
+						},
+						"vname": {
+							"display": null,
+							"scale": -1,
+							"value": "124124"
+						},
+						"ndealtotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "125.00"
+						},
+						"vbillcode": {
+							"display": null,
+							"scale": -1,
+							"value": "21414"
+						},
+						"cdeptvid": {
+							"display": "运营部",
+							"scale": -1,
+							"value": "0001Z51000000000IF7J"
+						},
+						"fstatusflag": {
+							"display": "自由态",
+							"scale": -1,
+							"value": "-1"
+						}
+					}
+				},
+				{
+					"rowId": "2",
+					"status": 1,
+					"values": {
+						"cemployeeid": {
+							"display": null,
+							"scale": -1,
+							"value": null
+						},
+						"noritotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "540.00"
+						},
+						"ts": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"pk_org_v": {
+							"display": "农仁街电子商务有限公司",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"ccustomerid": {
+							"display": "test",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"dmakedate": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"ccurrencyid": {
+							"display": null,
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"billmaker": {
+							"display": null,
+							"scale": -1,
+							"value": "1001K71000000000014U"
+						},
+						"vname": {
+							"display": null,
+							"scale": -1,
+							"value": "124124"
+						},
+						"ndealtotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "125.00"
+						},
+						"vbillcode": {
+							"display": null,
+							"scale": -1,
+							"value": "21414"
+						},
+						"cdeptvid": {
+							"display": "运营部",
+							"scale": -1,
+							"value": "0001Z51000000000IF7J"
+						},
+						"fstatusflag": {
+							"display": "自由态",
+							"scale": -1,
+							"value": "-1"
+						}
+					}
+				}
+			]
+		},
+		"body2": {
+			"pageInfo": null,
+			"rows": [
+				{
+					"rowId": "0",
+					"values": {
+						"cemployeeid": {
+							"display": null,
+							"scale": -1,
+							"value": null
+						},
+						"noritotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "540.00"
+						},
+						"ts": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"pk_org_v": {
+							"display": "农仁街电子商务有限公司",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"ccustomerid": {
+							"display": "test",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"dmakedate": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"ccurrencyid": {
+							"display": null,
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"billmaker": {
+							"display": null,
+							"scale": -1,
+							"value": "1001K71000000000014U"
+						},
+						"vname": {
+							"display": null,
+							"scale": -1,
+							"value": "124124"
+						},
+						"ndealtotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "125.00"
+						},
+						"vbillcode": {
+							"display": null,
+							"scale": -1,
+							"value": "21414"
+						},
+						"cdeptvid": {
+							"display": "运营部",
+							"scale": -1,
+							"value": "0001Z51000000000IF7J"
+						},
+						"fstatusflag": {
+							"display": "自由态",
+							"scale": -1,
+							"value": "-1"
+						}
+					}
+				},
+				{
+					"rowId": "1",
+					"status": 1,
+					"values": {
+						"cemployeeid": {
+							"display": null,
+							"scale": -1,
+							"value": null
+						},
+						"noritotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "540.00"
+						},
+						"ts": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"pk_org_v": {
+							"display": "农仁街电子商务有限公司",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"ccustomerid": {
+							"display": "test",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"dmakedate": {
+							"display": null,
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"ccurrencyid": {
+							"display": null,
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"billmaker": {
+							"display": null,
+							"scale": -1,
+							"value": "1001K71000000000014U"
+						},
+						"vname": {
+							"display": null,
+							"scale": -1,
+							"value": "124124"
+						},
+						"ndealtotalmny": {
+							"display": null,
+							"scale": 2,
+							"value": "125.00"
+						},
+						"vbillcode": {
+							"display": null,
+							"scale": -1,
+							"value": "21414"
+						},
+						"cdeptvid": {
+							"display": "运营部",
+							"scale": -1,
+							"value": "0001Z51000000000IF7J"
+						},
+						"fstatusflag": {
+							"display": "自由态",
+							"scale": -1,
+							"value": "-1"
+						}
+					}
+				}
+			]
+		}
+	},
+	"message": null,
+	"success": true
+}
