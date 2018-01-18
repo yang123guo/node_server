@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.get(/\/creditTableData[\w\W]*/, routes.tableData)
+app.post(/\/tableData[\w\W]*/, routes.tableData)
 app.get(/\/creditBreads[\w\W]*/, routes.breads)
 app.get(/\/creditcolumns[\w\W]*/, routes.columns)
 app.post(/\/creditDeleteItem[\w\W]*/, routes.deleteItem)

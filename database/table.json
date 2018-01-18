@@ -1,0 +1,198 @@
+[
+    {
+            "dealclass": "交易大类1",
+            "projectid": "项目1",
+            "begintime": "2017-11-11",
+            "trantypeid": "交易类型1",
+            "loanmny": 10
+    },
+    {
+            "dealclass": "交易大类2",
+            "projectid": "项目2",
+            "begintime": "2017-11-11",
+            "trantypeid": "交易类型2",
+            "loanmny": 20
+    },
+    {
+            "dealclass": "交易大类3",
+            "projectid": "项目3",
+            "begintime": "2017-11-11",
+            "trantypeid": "交易类型3",
+            "loanmny": 30
+    },
+    {
+            "dealclass": "交易大类4",
+            "projectid": "项目4",
+            "begintime": "2017-11-11",
+            "trantypeid": "交易类型4",
+            "loanmny": 40
+    },
+    {
+        "dealclass": "交易大类1",
+        "projectid": "项目1",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型1",
+        "loanmny": 10
+    },
+    {
+        "dealclass": "交易大类2",
+        "projectid": "项目2",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型2",
+        "loanmny": 20
+    },
+    {
+        "dealclass": "交易大类3",
+        "projectid": "项目3",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型3",
+        "loanmny": 30
+    },
+    {
+        "dealclass": "交易大类4",
+        "projectid": "项目4",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型4",
+        "loanmny": 40
+    },
+    {
+        "dealclass": "交易大类5",
+        "projectid": "项目5",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型5",
+        "loanmny": 50
+    },
+    {
+        "dealclass": "交易大类6",
+        "projectid": "项目6",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型6",
+        "loanmny": 60
+    },
+    {
+        "dealclass": "交易大类7",
+        "projectid": "项目7",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型7",
+        "loanmny": 70
+    },
+    {
+        "dealclass": "交易大类8",
+        "projectid": "项目8",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型8",
+        "loanmny": 80
+    },
+    {
+        "dealclass": "交易大类9",
+        "projectid": "项目9",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型9",
+        "loanmny": 90
+    },
+    {
+        "dealclass": "交易大类10",
+        "projectid": "项目10",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型10",
+        "loanmny": 100
+    },
+    {
+        "dealclass": "交易大类11",
+        "projectid": "项目11",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型11",
+        "loanmny": 110
+    },
+    {
+        "dealclass": "交易大类12",
+        "projectid": "项目12",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型12",
+        "loanmny": 120
+    },
+    {
+        "dealclass": "交易大类13",
+        "projectid": "项目13",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型13",
+        "loanmny": 130
+    },
+    {
+        "dealclass": "交易大类14",
+        "projectid": "项目14",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型14",
+        "loanmny": 140
+    },
+    {
+        "dealclass": "交易大类15",
+        "projectid": "项目15",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型15",
+        "loanmny": 150
+    },
+    {
+        "dealclass": "交易大类16",
+        "projectid": "项目16",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型16",
+        "loanmny": 160
+    },
+    {
+        "dealclass": "交易大类17",
+        "projectid": "项目17",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型1",
+        "loanmny": 170
+    },
+    {
+        "dealclass": "交易大类18",
+        "projectid": "项目18",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型18",
+        "loanmny": 180
+    },
+    {
+        "dealclass": "交易大类19",
+        "projectid": "项目19",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型19",
+        "loanmny": 190
+    },
+    {
+        "dealclass": "交易大类20",
+        "projectid": "项目20",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型20",
+        "loanmny": 200
+    },
+    {
+        "dealclass": "交易大类21",
+        "projectid": "项目21",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型21",
+        "loanmny": 210
+    },
+    {
+        "dealclass": "交易大类22",
+        "projectid": "项目22",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型22",
+        "loanmny": 220
+    },
+    {
+        "dealclass": "交易大类23",
+        "projectid": "项目23",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型23",
+        "loanmny": 230
+    },
+    {
+        "dealclass": "交易大类24",
+        "projectid": "项目24",
+        "begintime": "2017-11-11",
+        "trantypeid": "交易类型24",
+        "loanmny": 240
+    }
+]

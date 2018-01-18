@@ -2,37 +2,40 @@ let url = require('url');
 let dealFn = require('./dealfn.js');
 
 exports.tableData = (req, res) => {
-    console.log("tableData")
-    let query = url.parse(req.url, true).query,
-        pageIndex = +query.pageIndex,
-        pageSize = +query.pageSize,
-        keyWords = query.keyWords,
-        sendData = {
-            dataTables: {
-                totalPages: 0,
-                pageIndex: 0,
-                pageSize: 10,
-                totalNums: 10,
-                rows: []
-            },       
-            message: "响应成功",
-            statusCode: 200
-        };
+    // let query = url.parse(req.url, true).query,
+    //     pageIndex = +query.pageIndex,
+    //     pageSize = +query.pageSize,
+    //     keyWords = query.keyWords,
+    let sendData = {
+        pageInfo: {
+            pageSize: 10,
+            totalSize: 20,
+            pageIndex: 1,
+        },
+        tableData: [],       
+        message: "响应成功",
+        statusCode: 200
+    };
 
-    dealFn.readFileData('message.json').then((data) => {
-        let list = data.dataTables.purorderDataTable.rows,
+    let {
+        pageIndex,
+        pageSize,
+        keyWords,
+    } = req.body;
+    dealFn.readFileData('table.json').then((data) => {
+        let list = data,
             filterList = [];
         if(!keyWords){
            filterList = list
         }else{
-            filterList = list.filter( item => item.data.createName.includes(keyWords))
+            filterList = list.filter(item => item.dealclass.includes(keyWords))
         }
         let sendList = filterList.slice(pageIndex*pageSize, (pageIndex + 1) *pageSize)                
-        sendData.dataTables.rows = sendList;
-        sendData.dataTables.pageSize = pageSize || 10;
-        sendData.dataTables.totalPages = Math.ceil(filterList.length / sendData.dataTables.pageSize);
-        sendData.dataTables.totalNums = filterList.length;
-        sendData.dataTables.pageIndex = pageIndex;        
+        sendData.tableData = sendList;
+        sendData.pageInfo.pageSize = +pageSize || 10;
+        sendData.pageInfo.totalPages = Math.ceil(filterList.length / sendData.pageInfo.pageSize);
+        sendData.pageInfo.totalSize = filterList.length;
+        sendData.pageInfo.pageIndex = +pageIndex;        
         res.send(sendData);
     }, (msg) => {
         sendData.statusCode = 500;
