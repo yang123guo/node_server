@@ -6,10 +6,13 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 let fs = require('fs');
 
-var routes = require('./routes/route_app');
+// var route_app = require('./routes/route_app');
+var search = require('./routes/search');
+
 
 var app = express();
 var ejs = require('ejs');
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -33,20 +36,26 @@ app.get('/', (req, res) => {
     res.redirect('app');
 });
 
+// app.use('/', index);
+app.use('/search', search);//查
+// app.use('/add', add);//增
+// app.use('/edit', edit);//改
+// app.use('/del', del);//删
 
-app.post(/\/tableData[\w\W]*/, routes.tableData)
-app.get(/\/creditBreads[\w\W]*/, routes.breads)
-app.get(/\/creditcolumns[\w\W]*/, routes.columns)
-app.post(/\/creditDeleteItem[\w\W]*/, routes.deleteItem)
-app.post(/\/creditCreateItem[\w\W]*/, routes.createItem)
-app.post(/\/creditUpdateItem[\w\W]*/, routes.updateItem)
-app.get(/\/abc[\w\W]*/, routes.datejson)
 
-app.post(/\/creditUpdateItem[\w\W]*/, routes.updateItem)
+// app.post(/\/tableData[\w\W]*/, routes.tableData)
+// app.get(/\/creditBreads[\w\W]*/, routes.breads)
+// app.get(/\/creditcolumns[\w\W]*/, routes.columns)
+// app.post(/\/creditDeleteItem[\w\W]*/, routes.deleteItem)
+// app.post(/\/creditCreateItem[\w\W]*/, routes.createItem)
+// app.post(/\/creditUpdateItem[\w\W]*/, routes.updateItem)
+// app.get(/\/abc[\w\W]*/, routes.datejson)
 
-app.post(/\/tmc-bd-web\/bd\/bankaccbas\/list[\w\W]*/, routes.bankaccbas)
-app.post(/\/tmc-bd-web\/bd\/bankaccbas\/subquery[\w\W]*/, routes.bankaccbasub)
-app.post(/\/tmc-bd-web\/bd\/bankaccbas\/form[\w\W]*/, routes.bankaccbasdetail)
+// app.post(/\/creditUpdateItem[\w\W]*/, routes.updateItem)
+
+// app.post(/\/tmc-bd-web\/bd\/bankaccbas\/list[\w\W]*/, routes.bankaccbas)
+// app.post(/\/tmc-bd-web\/bd\/bankaccbas\/subquery[\w\W]*/, routes.bankaccbasub)
+// app.post(/\/tmc-bd-web\/bd\/bankaccbas\/form[\w\W]*/, routes.bankaccbasdetail)
 
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
