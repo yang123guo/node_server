@@ -1,7 +1,7 @@
 // 连接数据库信息
 const connect = {  
     mysql: {   
-        host: '11.11.11.11',     
+        host: '10.60.88.180',     
         user: 'prod_user',   
         password: 'prod_pass',  
         database:'promotion', 

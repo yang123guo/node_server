@@ -1,19 +1,23 @@
 function changeWord(str) {
     str = str.toLowerCase();
-    return str.replace(/_(\w)/g, function($,$1) {
+    return str.replace(/_(\w)/g, function($, $1) {
         return $1.toUpperCase();
     });
 }
 
+function changeUpper(str) {
+    return str.replace(/([A-Z])/g, "_$1").toUpperCase();
+}
+
 function isObj(param) {
-	return Object.prototype.toString.call(param).slice(8, -1) === 'Object';
+    return Object.prototype.toString.call(param).slice(8, -1) === 'Object';
 }
 
 function isDate(param) {
-	return Object.prototype.toString.call(param).slice(8, -1) === 'Date';
+    return Object.prototype.toString.call(param).slice(8, -1) === 'Date';
 }
 
-function formatTime (time, fmt) { //author: meizz
+function formatTime(time, fmt) { //author: meizz
     let o = {
         "M+": time.getMonth() + 1, //月份
         "d+": time.getDate(), //日
@@ -31,16 +35,16 @@ function formatTime (time, fmt) { //author: meizz
 
 function transKey(obj) {
     var objClone = Array.isArray(obj) ? [] : {};
-    if(obj && typeof obj === "object"){
-        for(key in obj){
-            if(obj.hasOwnProperty(key)){
+    if (obj && typeof obj === "object") {
+        for (key in obj) {
+            if (obj.hasOwnProperty(key)) {
                 var newKey = changeWord(key)
-                //判断ojb子元素是否为对象，如果是，递归复制
-                if(isObj(obj[key]) || Array.isArray(obj[key])){
+                    //判断ojb子元素是否为对象，如果是，递归复制
+                if (isObj(obj[key]) || Array.isArray(obj[key])) {
                     objClone[newKey] = transKey(obj[key]);
-                }else if(isDate(obj[key])){ // 时间类型
+                } else if (isDate(obj[key])) { // 时间类型
                     objClone[newKey] = formatTime(obj[key], 'yyyy-MM-dd');
-                }else {
+                } else {
                     //如果不是，简单复制
                     objClone[newKey] = obj[key];
                 }
@@ -50,6 +54,15 @@ function transKey(obj) {
     return objClone;
 }
 
+function transSql() {
+
+}
+
+function andSql() {
+
+}
+
 module.exports = {
-    transKey: transKey
+    transKey: transKey,
+    changeUpper: changeUpper
 }
