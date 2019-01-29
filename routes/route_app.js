@@ -26,7 +26,7 @@ exports.tableData = (req, res) => {
         let list = data,
             filterList = [];
         if(!keyWords){
-           filterList = list
+            filterList = list
         }else{
             filterList = list.filter(item => item.dealclass.includes(keyWords))
         }

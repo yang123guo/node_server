@@ -7,6 +7,6 @@ const connect = {
         database:'promotion', 
         port: 8888  
     }
- };
+};
 
 module.exports = connect;
